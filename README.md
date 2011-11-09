@@ -8,3 +8,4 @@ Tasks:
 * Make API request within the app, instead of a separate script. Not
   sure whether a controller or model should be doing that.
 * Then again, maybe not. We certainly don't want to be polling the api on page loads, we just want to get the damn db populated. Using v2access.rb to straight up generate a seed file would work too.
+* Don't forget to set up .autotest and spork and all that shit.
